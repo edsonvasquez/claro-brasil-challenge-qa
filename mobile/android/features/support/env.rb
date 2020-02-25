@@ -24,5 +24,3 @@ end
 
 Before { $driver.start_driver }
 After { $driver.driver_quit }
-
-# Configuração padrão do Appium

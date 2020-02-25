@@ -1,0 +1,6 @@
+[caps]
+platformName = "iOS"
+deviceName = "iPhone 8"
+udid = "26de1ab1bdad346b7ffe8892605b824ba9b051db"
+automationName = "XCUITest"
+bundleId = "com.example.leonardomenezes.simplecalculatorios"
