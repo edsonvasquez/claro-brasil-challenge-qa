@@ -1,0 +1,9 @@
+[caps]
+platformName = "Android"
+deviceName = "Nexus 5"
+udid = "0430819868"
+appWaitActivity = "com.example.leonardomenezes.simplecalculatorandroid.MainActivity"
+appPackage = "com.example.leonardomenezes.simplecalculatorandroid"
+app = "./caps/app-android-calculator.apk"
+autoGrantPermissions = true
+noReset = true
