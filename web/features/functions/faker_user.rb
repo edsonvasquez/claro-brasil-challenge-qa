@@ -1,0 +1,15 @@
+USER = {
+    "email" =>  Faker::Internet.email,
+    "firstname" => Faker::Name.first_name,
+    "lastname" => Faker::Name.last_name,
+    "password" => Faker::Internet.password,
+    "company" => Faker::Company.name,
+    "address_1" => Faker::Address.street_name,
+    "address_2" => Faker::Address.secondary_address,
+    "city" => Faker::Address.city,
+    "state" => Faker::Address.state,
+    "postalcode" => Faker::Number.number(digits: 5),
+    "additional_info" => Faker::ChuckNorris.fact,
+    "home_phone" => Faker::Number.number(digits: 10),
+    "mobile_phone" => Faker::PhoneNumber.cell_phone,
+}
